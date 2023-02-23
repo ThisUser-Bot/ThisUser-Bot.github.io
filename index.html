@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Hello!</title>
+    <title>Welcome! - ThisUser</title>
     <link rel="shortcut icon" type="image/x-icon" href="/media/favicon.ico">
     <meta name="description" content="Welcome to ThisUser's Page!">
     <meta charset="UTF-8">
@@ -13,6 +13,22 @@
             text-align: center;
             margin: 0;
             overflow: overlay;
+        }
+        .management {
+            background-color: #454545;
+            font-family: arial;
+            text-align: center;
+            color: #FFFFFF;
+            height: 36px;
+            display:  flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 2;
+            position: fixed;
+            width: 100%;
+        }
+        #link-manage {
+            color: #7DBAE9;
         }
         .header {
             background-color: #3C3D3E;
@@ -35,6 +51,9 @@
     </style>
     </head>
     <body>
+    <div class="management">
+        <p>This <a id="link-manage" href="/hosting.html">page is hosted</a> by GitHub</p>
+        </div>
     <div class="header">
         <h2>Welcome to My Page!</h2>
         <p>I'm ThisUser, why do I have my username as ThisUser-Bot? No clue but I can assure you that I am definitely a human and not a bot.</p>
@@ -50,10 +69,10 @@
         <div class="section-dark">
         <h2>Socials</h2>
         <p>A good page has at least some socials to follow, so here's mines.</p>
-        <a href="https://social.hatto.dev/@thisuser0494"><button style="cursor: pointer;"><code>Mastodon</code></button></a> 
-            <p>I've been fairly active lately as of Feb. 21, 2023. This is one of the newest social media platforms I've signed up for. It's pretty good for now.</p>
-        <a href="https://bluejay1048.newgrounds.com"><button style="cursor: pointer;"><code>Newgrounds</code></button></a> 
-            <p>Although I'm not that active on Newgrounds, it's a nice place to visit from time to time. You may notice that my username is BlueJay1812, BlueJay1048 is my other one.</p>
+        <p><a href="https://social.hatto.dev/@thisuser0494"><button style="cursor: pointer;"><code>Mastodon</code></button></a></p>
+        <p>I've been fairly active lately as of Feb. 21, 2023. This is one of the newest social media platforms I've signed up for. It's pretty good for now.</p>
+        <p><a href="https://bluejay1048.newgrounds.com"><button style="cursor: pointer;"><code>Newgrounds</code></button></a></p>
+        <p>Although I'm not that active on Newgrounds, it's a nice place to visit from time to time. You may notice that my username is different, it's my gamertag.</p>
         </div>
         <div class="section-light">
         <h2>That's all folks!</h2>
