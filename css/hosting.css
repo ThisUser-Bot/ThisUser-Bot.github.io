@@ -10,3 +10,8 @@ a {
   color: #7dbae9;
   text-decoration: none;
 }
+@media (max-width: 915px) {
+  body {
+    margin: 15px;
+  }
+}
