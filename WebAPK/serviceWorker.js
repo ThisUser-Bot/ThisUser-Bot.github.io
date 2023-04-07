@@ -8,7 +8,7 @@ var cacheAll = false;
 var CACHE_NAME = 'webapk-cache';
 var urlsToCache = [
 	'/WebAPK/',
-	'/WebAPK/index.html',
+	'/WebAPK/page2.html',
 	'/WebAPK/logo.png',
 	'/WebAPK/manifest.json',
 	'/WebAPK/css/main.css',
@@ -17,6 +17,7 @@ var urlsToCache = [
 ];
 var urlsNotToCache = [
 	// Urls that don't need to be cached can be added here explicitly
+	'/WebAPK/index.html'
 ];
 
 // Install Event
