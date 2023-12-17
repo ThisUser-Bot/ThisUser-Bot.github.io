@@ -14,19 +14,19 @@ const CONFIG = {
 	name: 'Jay',
 	imageBackground: false,
 	openInNewTab: true,
-	twelveHourFormat: false,
+	twelveHourFormat: true,
 
 	// Greetings
-	greetingMorning: 'Good morning!',
-	greetingAfternoon: 'Good afternoon,',
-	greetingEvening: 'Good evening,',
+	greetingMorning: 'Good Morning!',
+	greetingAfternoon: 'Good Afternoon,',
+	greetingEvening: 'Good Evening,',
 	greetingNight: 'Go to Sleep!',
 
 	// Layout
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: 'a855b0fe5d20eb14a277a0a4c16a83b9', // Write here your API Key
+	weatherKey: '5d97c292ad244b23bad13aaf30c6761a', // Write here your API Key
 	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'F', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
