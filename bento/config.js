@@ -65,7 +65,7 @@ const CONFIG = {
 		},
 		{
 			id: '3',
-			name: 'Teams',
+			name: 'Issue',
 			icon: 'briefcase',
 			link: 'https://teams.microsoft.com/v2/',
 		},
@@ -77,9 +77,9 @@ const CONFIG = {
 		},
 		{
 			id: '5',
-			name: 'Reddit',
-			icon: 'glasses',
-			link: 'https://reddit.com',
+			name: 'Teams',
+			icon: 'briefcase',
+			link: 'https://teams.microsoft.com/v2/',
 		},
 		{
 			id: '6',
